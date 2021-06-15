@@ -19,7 +19,7 @@ public class DelayCountReducer extends Reducer<Text, IntWritable, Text, IntWrita
 	}
 	
 		result.set(sum);;
-		context.write(key,  result);
+		context.write(key, result);
 	
 }
 	
